@@ -27,6 +27,7 @@
 <body>
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+  <!-- <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top"> -->
     <div class="container">
         <img src="./img/Logos Entorno/LogoEntorno.JPG" class="navbar-brand js-scroll-trigger" href="#page-top" style="width: 60px">
       <a class="navbar-brand" href="#">Entorno</a>
@@ -63,7 +64,7 @@
           <img src="./img/imgBanner/Banner2.jpg" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
-          <img src="./img/imgBanner/Banner3.png" class="d-block w-100" alt="...">
+          <img src="./img/imgBanner/Banner3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -191,9 +192,8 @@
     <br><br>
     </section>
 
-
 <!-- Ofertas de Trabajos online -->  
-  <section class="page-section text-white mb-0" id="trabajo" style="background-color:rebeccapurple;">
+  <section class="page-section text-white mb-0" id="trabajo" style="background-color:orangered;">
     <div class="container">
       <br><br>
       <h1 class="page-section-heading text-center text-uppercase text-white">Busca aquí trabajo</h1>
@@ -211,14 +211,14 @@
               desmarque una puntuación...
           </p>
           <button type="button" class="btn btn-info">
-            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portafolioNoticia1">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ofertaTrabajo1">
               <h6>Leer más</h6>
             </div>
           </button>
           
         </div>        
       </div>
-      <br><br>
+      <br>
       <!-- Oferta 2 -->
       <div class="row">
         <div class="col-lg-3 ml-auto">
@@ -232,13 +232,13 @@
             un sitio web y la imagen para poder hacer trípticos para entrega física.
           </p>
           <button type="button" class="btn btn-info">
-            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portafolioNoticia2">
+            <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ofertaTrabajo2">
               <h6>Leer más</h6>
             </div>
           </button>
         </div>
       </div>
-      <br><br>
+      <br>
       <!-- OFerta 3 -->
       <div class="row">
           <div class="col-lg-3 ml-auto">
@@ -252,14 +252,13 @@
               Mi empresa necesita conectar bases de datos de clientes con nuestra base de datos central. 
             </p>
             <button type="button" class="btn btn-info">
-                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portafolioNoticia3">                
+                <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#ofertaTrabajo3">                
                   <h6>Leer más</h6>
                 </div>
             </button>
           </div>
         </div>        
       </div> 
-      <br>  
       <div class="row">
         <div class="col-lg-7 ml-auto">
           <a href="#" class="btn btn-xl rounded-pill mt-5" style="background-color: #ffffff;">Más ofertas</a>
@@ -289,6 +288,139 @@
         </a>
     </div>
   </footer>
+
+  <!-- Portfolio Modals -->
+  <!-- Portafolio ofertas de trabajo -->
+
+  <!-- Modal de oferta de trabajo 1 -->
+  <div class="portfolio-modal modal fade" id="ofertaTrabajo1" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <br>
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title  mb-0">Desarrollo de formulario en HTML5</h2>
+                <br>
+                <!-- Portfolio Modal - Text -->
+                <h5>
+                  Requiero un desarrollo de un formulario de evaluación con 17 ítems y 5 niveles 
+                  de puntuación para cada ítem, de manera que sea realizado un cálculo automático 
+                  cada vez que se marque o desmarque una puntuación, por lo que las puntuaciones 
+                  pueden estar con un control tipo checkbox. El formulario debe almacenar nombre, 
+                  fecha, hora, ciudad, lugar, y evaluador.
+                  <br>
+                  El objetivo es que 5 evaluadores puedan almacenar las evaluaciones de manera simultánea.
+                  <br>
+                  Se requiere una interfaz para Evaluador y otra para Administrador, donde se puedan visualizar
+                  las puntuaciones almacenadas. Las interfaces deben permitir configurar logotipos o imágenes 
+                  de un evento. Se adjunta una imagen del formulario como una aplicación de Windows.
+                </h5>
+                <br>
+                <h5><strong>Habilidades:</strong> Angular.js, node.js, HTML5, Javascript, NoSQL Couch y Mongo</h5>
+                <br>
+                <button class="btn btn-info">ofertar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de oferta de trabajo 2 -->
+  <div class="portfolio-modal modal fade" id="ofertaTrabajo2" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <br>
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title  mb-0">Desarrollo de logo, imagen y website</h2>
+                <br>
+                <!-- Portfolio Modal - Text -->
+                <h5>
+                  Me gustarìa poder hacer con ustedes la imagen de mi empresa, se trata de desarrollar
+                  un logotipo, un sitio web y la imagen para poder hacer trípticos para entrega física.
+                  <br>
+                  sitio web gratuito de cuidado de la piel del logotipo, sitio web de pitbull de diseño
+                  de logotipo, sitio web de imagen de fondo del logotipo, sitio web en línea de logotipo
+                  incorporado, sitio web diferente de diseño de logotipo, sitio web de tipo de revista 
+                  de logotipo wwwfashionandpassioncom, sitio web transparente con aspecto de logotipo, 
+                  vector de sobre ganador del sitio web de oferta de software de logotipo, logotipo 
+                  seguro sitio web de comercio de wordpress, sitio web transparente de fondo de logotipo, 
+                  sitio web médico de diseño de logotipo, sitio web de negocios diseñado con logotipo, 
+                  sitio web convertido de logotipo, sitio web de apartamento de diseño de logotipo abierto ykumar85
+                  <br>                  
+                </h5>
+                <br>
+                <h5><strong>Habilidades:</strong> Diseño gráfico, Diseño de logotipos, Diseño de sitios web, HTML, PHP</h5>
+                <br>
+                <button class="btn btn-info">ofertar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal de oferta de trabajo 3 -->
+  <div class="portfolio-modal modal fade" id="ofertaTrabajo3" tabindex="-1" role="dialog"
+    aria-labelledby="portfolioModal1Label" aria-hidden="true">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">
+            <i class="fas fa-times"></i>
+          </span>
+        </button>
+        <div class="modal-body text-center">
+          <div class="container">
+            <div class="row justify-content-center">
+              <br>
+              <div class="col-lg-8">
+                <!-- Portfolio Modal - Title -->
+                <h2 class="portfolio-modal-title  mb-0">Gestor de base de datos</h2>
+                <br>
+                <!-- Portfolio Modal - Text -->
+                <h5>
+                  login con base datos sql asp, mantenimiento base datos sql 2005 usando, aplicaciones 
+                  sharp base datos, consultar base datos sql server 2005 desde asp, motor base datos web 
+                  service, manejo base datos sql store procedures, base datos ceticos tacna, conectar base
+                  datos sql server desde, importa base datos homepage maker oscommerce, usando como base 
+                  datos, awk base datos relacional, mantenimiento una base datos sql con asp, net base 
+                  datos oracle red, net trigeer base datos form, base datos borigen betzel, administrador 
+                  base datos oracle bahiablanca, seminario sharp base datos, lenguaje motor base datos,
+                  java aplicacion escritorio base datos, freelancer web y conectar base datos trafico movil.
+                </h5>
+                <br>
+                <h5><strong>Habilidades:</strong> SQL, Administración de bases de datos, Data Integration, Desarrollo de base de datos, Programación de bases de datos, Empleo local, MySQL</h5>
+                <br>
+                <button class="btn btn-info">ofertar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
